@@ -24,14 +24,12 @@
     <div class="flex flex-col md:flex-row">
     <input class="py-2 pl-2 text-black focus:text-white focus:outline-none focus:bg-gray-900 focus:placeholder-gray-400 lg:pr-8" placeholder="Enter email..." type="email" name="email" id="email">
     <button class="bg-red-600 mb-4 px-4 py-2 mt-2 focus:outline-none focus:bg-red-700 md:mt-0 md:mb-0" type="submit">Subscribe</button>
-    </div>    
+    </div>
 </section>
 
-<section>
-    <div class="text-center p-4 mb-4 ml-20 w-3/5">
-        <div>
-            <h1 class="font-bold md:text-left mb-4">Services</h1>
-        </div>
+<h1 class="font-bold md:text-left mb-4 text-center md:ml-20 mt-4">Services</h1>
+<section class="md:flex block">
+    <div class="text-center p-4 mb-4 md:ml-16 md:w-3/5">        
         <div class="p-4 bg-gray-200">
             <h1 class="font-bold mb-4">Website Design</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum quas velit voluptatem praesentium! Non commodi pariatur ducimus illo reiciendis. Iure aspernatur fugiat explicabo!</p>
@@ -48,9 +46,19 @@
             <p class="p-3"> Pricing: $25 per Month</p>
         </div>
     </div>
+    <div class="bg-gray-700 p-4 flex flex-col mx-10 text-center text-white md:h-1/4 md:w-1/4 md:text-left">
+        <h2 class="mb-2">Get A Quote</h2>
+    <h3>Name</h3>
+    <input type="Text" name="name" id="name" class="mb-3 text-black focus:text-white focus:outline-none focus:bg-gray-900 focus:placeholder-gray-400" placeholder="Name...">
+    <h3>Email</h3>
+    <input type="email" name="email" id="email" class="mb-3 text-black focus:text-white focus:outline-none focus:bg-gray-900 focus:placeholder-gray-400" placeholder="Enter email...">
+    <h3>Message</h3>
+    <textarea name="Message" id="Message" cols="" rows="" class="text-black focus:text-white focus:outline-none focus:bg-gray-900 focus:placeholder-gray-400 md:mb-3" placeholder="Message..."></textarea>
+    <button class="bg-red-600 mb-4 px-4 py-2 mt-2 focus:outline-none focus:bg-red-700 md:mt-0 md:mb-0" type="submit">Send</button>
+    </div>
 </section>
 
-<section class="bg-red-500 flex items-center justify-center absolute w-full h-28">
+<section class="bg-red-500 flex items-center justify-center absolute w-full h-28 mt-12 lg:mt-32">
     <div>
     <p>Acme Web Design. Copyright &copy 2020</p>
     </div>
